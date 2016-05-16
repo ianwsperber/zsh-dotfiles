@@ -18,6 +18,7 @@
         s  = status -sb
         b  = branch
         a  = add -A .
+        p  = push -u
 
         # Diffs
         d = diff
