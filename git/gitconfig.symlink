@@ -17,9 +17,11 @@
         c  = commit
         s  = status -sb
         b  = branch
-        a  = add -A .
+        a  = add
+        aa = add -A .
         undo = reset --soft HEAD~1
         aliases = config --get-regexp ^alias\\.
+        fo = fetch origin
 
         # Diffs
         d = diff
