@@ -116,11 +116,8 @@ host () {
 ####################################################################################################
 
 
-=======
-
-
-# export PROMPT=$'\n$(user_name) at $(host) in $(directory_name)$(git_prompt)\n› '
-export PROMPT=$'\n$(battery_status)in $(directory_name) $(git_dirty)$(need_push)\n› '
+export PROMPT=$'\n$(user_name) at $(host) in $(directory_name)$(git_prompt)\n› '
+# export PROMPT=$'\n$(battery_status)in $(directory_name) $(git_dirty)$(need_push)\n› '
 
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}$(nvm_prompt) / $(npm_prompt)%{$reset_color%}"
